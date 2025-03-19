@@ -1,0 +1,71 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 1500px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.panel-menu {
+    background-color: darkblue;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+    .panel-menu .menu-btn {
+        padding: 10px 20px;
+        margin: 5px;
+        background-color: white;
+        color: darkblue;
+        border: 2px solid white;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+        .panel-menu .menu-btn:hover {
+            background-color: lightgray;
+        }
+
+.panel-form {
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    color: darkblue;
+}
+
+/* Ajuste para que los inputs no sobresalgan */
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
